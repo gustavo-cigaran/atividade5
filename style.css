@@ -1,0 +1,24 @@
+:root {
+    --cor-primaria: #272829;
+    --cor-secundaria: #61677A;
+    --cor-terciaria: #D8D9DA;
+    --cor-alternativa: #FFF6E0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+.formulario-tarefas {
+    background-color: var(--cor-secundaria);
+}
+
+.tarefas, .list-group-item {
+    background-color: var(--cor-terciaria);
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>To Do List</title>
+</head>
+<body class="container p-3">
+	<header>
+		<h1 class="text-center text-white">To Do List</h1>
+	</header>
+	<main class="container row">
+		<aside class="formulario-tarefas">
+			<form class="row p-2 justify-content-center">
+				<div class="col-auto formulario-campos">
+					<input type="text" name="nome-tarefa" class="form-control input-tarefa">
+				</div>
+				<div class="col-auto">
+					<button type="submit" class="btn btn-primary">Adicionar</button>
+				</div>
+			</form>
+		</aside>
+		<section class="tarefas">
+			<ul class="list-group list-group-flush lista">
+			</ul>
+		</section>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
